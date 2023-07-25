@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "bbclient"
+version="1.0-1.19.2"
+logoFile="logo.PNG"
+displayName="BBClient"
+displayURL = "https://bernhardbmx.net"
+authors="Ben G (BernhardBMX)"
+credits="???"
+description = '''
+Supports Create mod
+'''
+
+[[dependencies.bbclient]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.bbclient]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,1.20)"
+ordering = "NONE"
+side = "CLIENT"
