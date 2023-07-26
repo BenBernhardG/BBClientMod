@@ -7,11 +7,11 @@ modId = "bbclient"
 version="1.0-1.19.2"
 logoFile="logo.PNG"
 displayName="BBClient"
-displayURL = "https://bernhardbmx.net"
+displayURL = "https://www.bernhardbmx.net/mc/BBClient/"
 authors="Ben G (BernhardBMX)"
 credits="???"
 description = '''
-Supports Create mod
+Supports Create and Optifine
 '''
 
 [[dependencies.bbclient]]
