@@ -18,4 +18,3 @@ public class BBClient {
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
-
