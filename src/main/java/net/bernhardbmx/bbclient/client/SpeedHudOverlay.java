@@ -8,11 +8,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.client.gui.overlay.IGuiOverlay;
 
 public class SpeedHudOverlay {
-    private static final ResourceLocation SPEEDOMETER_0 = new ResourceLocation(BBClient.MODID,
+    private static final ResourceLocation SPEEDOMETER_0 = new ResourceLocation(BBClient.MOD_ID,
         "textures/gui/speedometer/speedometer_0.png");
-    private static final ResourceLocation SPEEDOMETER_1 = new ResourceLocation(BBClient.MODID,
+    private static final ResourceLocation SPEEDOMETER_1 = new ResourceLocation(BBClient.MOD_ID,
             "textures/gui/speedometer/speedometer_1.png");
-    private static final ResourceLocation SPEEDOMETER_2 = new ResourceLocation(BBClient.MODID,
+    private static final ResourceLocation SPEEDOMETER_2 = new ResourceLocation(BBClient.MOD_ID,
             "textures/gui/speedometer/speedometer_2.png");
 
     public static final IGuiOverlay HUD_SPEEDOMETER = ((gui, poseStack, partialTick, screenWidth, screenHeight) -> {
