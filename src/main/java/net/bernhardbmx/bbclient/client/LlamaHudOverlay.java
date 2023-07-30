@@ -8,7 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.client.gui.overlay.IGuiOverlay;
 
 public class LlamaHudOverlay {
-    private static final ResourceLocation LLAMA = new ResourceLocation(BBClient.MODID,
+    private static final ResourceLocation LLAMA = new ResourceLocation(BBClient.MOD_ID,
             "textures/gui/llama.png");
 
     public static final IGuiOverlay HUD_LLAMA = ((gui, poseStack, partialTick, screenWidth, screenHeight) -> {

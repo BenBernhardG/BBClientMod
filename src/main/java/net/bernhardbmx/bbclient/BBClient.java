@@ -6,9 +6,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-@Mod(BBClient.MODID)
+
+@Mod(BBClient.MOD_ID)
 public class BBClient {
-    public static final String MODID = "bbclient";
+    public static final String MOD_ID = "bbclient";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
