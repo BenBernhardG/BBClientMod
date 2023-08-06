@@ -1,7 +1,8 @@
-package net.bernhardbmx.bbclient.event;
+package bbclient.event;
 
-import net.bernhardbmx.bbclient.BBClient;
-
+import bbclient.BBClient;
+import bbclient.client.LlamaHudOverlay;
+import bbclient.client.SpeedHudOverlay;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterGuiOverlaysEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -12,7 +13,8 @@ public class ClientEvents {
     public static class ClientModBusEvents {
         @SubscribeEvent
         public static void registerGuiOverlays(RegisterGuiOverlaysEvent event) {
-            // HudOverlays
+            event.registerAboveAll("speedometer", SpeedHudOverlay.HUD_SPEEDOMETER);
+            event.registerAboveAll("llama", LlamaHudOverlay.HUD_LLAMA);
         }
     }
 }

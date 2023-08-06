@@ -1,4 +1,4 @@
-package net.bernhardbmx.bbclient;
+package bbclient;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
