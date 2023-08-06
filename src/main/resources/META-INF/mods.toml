@@ -4,7 +4,7 @@ license = "All Rights Reserved"
 
 [[mods]]
 modId = "bbclient"
-version="0.1-1.19.2"
+version="0.1.1-1.19.2"
 logoFile="logo.PNG"
 displayName="BBClient"
 displayURL="https://www.bernhardbmx.net/mc/BBClient/"
