@@ -1,4 +1,4 @@
-package net.bernhardbmx.bbclient.client;
+package bbclient.client;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.bernhardbmx.bbclient.BBClient;

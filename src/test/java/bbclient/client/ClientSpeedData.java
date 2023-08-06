@@ -1,4 +1,4 @@
-package net.bernhardbmx.bbclient.client;
+package bbclient.client;
 
 public class ClientSpeedData {
     private static int playerSpeed;

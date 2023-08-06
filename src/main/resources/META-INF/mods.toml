@@ -27,3 +27,10 @@ mandatory = true
 versionRange = "[1.19.2,1.20)"
 ordering = "NONE"
 side = "CLIENT"
+
+#[[dependencies.bbclient]]
+#modId = "optifine"
+#mandatory = true
+#versionRange = "[1.19.2,1.20)"
+#ordering = "NONE"
+#side = "CLIENT"
